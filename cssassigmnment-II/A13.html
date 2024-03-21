@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #fixed {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 40%;
+        height: 100px;
+        border: 5px solid pink;
+        padding: 10px;
+    }
+
+    #sticky {
+        width: 58%;
+    }
+
+    #sticky img {
+        position: sticky;
+        top: 0;
+        left: 0;
+    }
+
+    #relative {
+        position: relative;
+        width: 100%;
+        display: flex;
+    }
+
+    #absolute {
+        position: absolute;
+        flex-direction: column;
+        padding-top: 200px;
+        width: 58%;
+
+    }
+    
+</style>
+
+<body>
+    <h1>CSS Assignment 13</h1>
+    <div id="fixed">
+        <h2>Different positioning techniques such as relative, absolute, fixed, and sticky. </h2>
+    </div>
+    <div id="sticky">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYLzgon3DZpgS24s8-iFXCaVkYKeT-VhY_JA&usqp=CAU"
+            alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex facere quibusdam consequuntur animi modi
+            doloremque sint ipsum! Officiis quaerat pariatur, porro illum possimus numquam, quasi labore nobis minus
+            tempora deserunt. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis nostrum quas ex, doloremque
+            consectetur illo atque possimus similique odio neque excepturi a necessitatibus dolor rem ut tempora cum
+            sequi unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia sapiente exercitationem
+            debitis dicta, labore quis, dolores voluptatum odit, accusantium asperiores delectus. Rerum nam porro
+            similique alias ab libero quis sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+            delectus velit odio error veritatis excepturi maxime eaque eos aliquam vero. Deleniti rem voluptates sunt
+            optio! Architecto maxime dolor quod accusantium. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Autem, impedit fuga! Et suscipit illum nesciunt impedit, harum inventore voluptas necessitatibus, magnam
+            ipsum facilis quos culpa ratione dolores ipsam molestias quidem?
+        </p>
+    </div>
+    <div id="relative">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ1Y2tqZMiN_FHEi72Jzi4Sve5Y6ckCjvAaXAXRy0eAh-3dWTXzuXJHDTTuX8ToEwwEEw&usqp=CAU"
+            alt="">
+        <p>This image is set to position relative</p>
+        <div id="absolute">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRceWhRQA4Fo6Kyy068sisI9lSE7ITunJOCnAwAoCPVX4S17dkazNHf0ygJZYkw-erjKUA&usqp=CAU"
+                alt="">
+            <p>This image is set to position absolute to it's parent whose position is relative</p>
+        </div>
+    </div> <br><br><br><br><br><br><br><br><br><br><br>
+    <div id="static">
+        <h1>Position static </h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim aliquid deserunt ad, neque voluptatibus porro.
+        Provident, a quod modi minima odit quo distinctio deserunt esse id fugiat. Error, similique veniam?</p>
+        </div>
+</body>
+
+</html>
